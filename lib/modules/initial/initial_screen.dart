@@ -15,7 +15,7 @@ class _InitScreenState extends State<InitScreen> {
 
   void _navigateScreen() async {
     Future.delayed(Duration(milliseconds: 100), () {
-      Get.offNamed(AppRoute.home);
+      Get.offNamed(AppRoute.root);
     });
   }
 

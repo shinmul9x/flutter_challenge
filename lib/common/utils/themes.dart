@@ -32,4 +32,32 @@ class AppTextTheme {
   static TextStyle t16W700([Color? color]) {
     return _textStyle(16.dp, FontWeight.w700, null, color);
   }
+
+  static TextStyle t16W500([Color? color]) {
+    return _textStyle(16.dp, FontWeight.w500, null, color);
+  }
+
+  static TextStyle t12W400([Color? color]) {
+    return _textStyle(12.dp, FontWeight.w400, null, color);
+  }
+
+  static TextStyle t14W400([Color? color]) {
+    return _textStyle(14.dp, FontWeight.w400, null, color);
+  }
+
+  static TextStyle t14W500([Color? color]) {
+    return _textStyle(14.dp, FontWeight.w500, null, color);
+  }
+
+  static TextStyle t20W400([Color? color]) {
+    return _textStyle(20.dp, FontWeight.w400, null, color);
+  }
+
+  static TextStyle t24W400([Color? color]) {
+    return _textStyle(24.dp, FontWeight.w400, null, color);
+  }
+
+  static TextStyle t24W500([Color? color]) {
+    return _textStyle(24.dp, FontWeight.w500, null, color);
+  }
 }
